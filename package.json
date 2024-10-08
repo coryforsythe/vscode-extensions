@@ -1,0 +1,37 @@
+{
+  "name": "cory-forsythe-extensions",
+  "displayName": "cory-forsythe-extensions",
+  "description": "My Extensions!",
+  "version": "0.0.1",
+  "icon": "images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coryforsythe/vscode-extensions.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "wesbos.theme-cobalt2",
+    "dbaeumer.vscode-eslint",
+    "hashicorp.terraform",
+    "mongodb.mongodb-vscode",
+    "pulumi.pulumi-vscode-tools",
+    "pulumi.pulumi-lsp-client",
+    "4ops.terraform",
+    "AmazonWebServices.aws-toolkit-vscode",
+    "ms-vscode.vscode-typescript-next",
+    "github.vscode-github-actions",
+    "GitHub.copilot",
+    "Orta.vscode-jest"
+  ],
+  "devDependencies": {
+    "@vscode/vsce": "^3.1.1"
+    },
+  "scripts": {
+    "package":"vsce package"
+  }
+}
